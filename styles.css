@@ -6,22 +6,22 @@ body {
 }
 
 header {
-    border-bottom: solid 2px rgb(42, 122, 228);
+    border-bottom: solid 2px rgb(190, 10, 10);
     padding: 20px;
     font-size: 32px;
-    color: rgb(42, 122, 228);
+    color: rgb(190, 10, 10);
 }
 
 section {
-    background: rgb(110, 200, 90);
-    padding-bottom: 80px;
-    padding-top: 80px;
+    background: rgb(30, 10, 10);
+    padding-bottom: 20px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
 }
 
 .chamada-texto {
-    margin-right: 5%;
+    margin-right: 3%;
 }
 
 h1 {
