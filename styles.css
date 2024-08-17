@@ -3,6 +3,7 @@ body {
     background: black;
     margin: 0px;
     font-family: "Kanit", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
@@ -12,8 +13,8 @@ header {
     color: rgb(190, 10, 10);
 }
 
-section {
-    background: rgb(30, 10, 10);
+.chamada {
+    background: rgb(50, 10, 10);
     padding-bottom: 20px;
     padding-top: 20px;
     display: flex;
@@ -21,13 +22,44 @@ section {
 }
 
 .chamada-texto {
-    margin-right: 3%;
+    margin-left: 2%;
+}
+
+.chamada-video {
+    margin-right: 2%;
 }
 
 h1 {
     font-size: 40px;
 }
 
-P {
+p {
     font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.2;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid rgb(130, 10, 170);
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria h2 {
+    color: rgb(130, 10, 170);
+    font-size: 30px;
 }
